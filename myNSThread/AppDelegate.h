@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  myNSThread
 //
-//  Created by qianfeng on 14-5-20.
+//  Created by leichunxiang on 14-5-20.
 //  Copyright (c) 2014年 qianfeng. All rights reserved.
 //
 

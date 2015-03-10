@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  myNSThread
 //
-//  Created by qianfeng on 14-5-20.
+//  Created by leichunxiang on 14-5-20.
 //  Copyright (c) 2014年 qianfeng. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController=[[RootViewController alloc] init];
     return YES;
 }
 
