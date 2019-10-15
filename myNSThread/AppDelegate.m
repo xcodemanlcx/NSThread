@@ -18,6 +18,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    NSLog(@"hello git2");
     self.window.rootViewController=[[RootViewController alloc] init];
     return YES;
 }
